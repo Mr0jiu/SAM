@@ -1,0 +1,46 @@
+# ===== 模型权重 =====
+*.pth
+*.pt
+*.onnx
+*.weights
+*.bin
+*.safetensors
+
+# ===== 数据集（图片 + COCO 标注）=====
+yolo to SAM111.coco/
+reslut.coco/
+
+# ===== 第三方库（本地安装）=====
+segment-anything-main/
+
+# ===== 图片文件 =====
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.tif
+*.webp
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ===== 缓存 =====
+test/
+*.log
