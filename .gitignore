@@ -5,7 +5,7 @@
 *.weights
 *.bin
 *.safetensors
-
+*.zip
 # ===== 数据集（图片 + COCO 标注）=====
 yolo to SAM111.coco/
 reslut.coco/
